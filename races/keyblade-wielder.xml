@@ -4,8 +4,8 @@
     <name>Keyblade Wielder</name>
 	<description>The Keyblade Wielder class created for a Kingdom Hearts inspired campaign.</description>
 	  <author>AntiAlex</author>
-	  <update version='0.0.1'>
-	    <file name="keyblade-wielder.xml" url="<file name="keyblade-wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/races/keyblade-wielder.xml" />
+	  <update version="0.0.1">
+	    <file name="keyblade-wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/races/keyblade-wielder.xml" />
 	  </update>
   </info>
   
