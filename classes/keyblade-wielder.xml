@@ -44,14 +44,50 @@
 	<div element="ID_KH_CLASS_FEATURE_KEYBLADE-WIELDER_PATH" />
 	<div element="ID_KH_CLASS_FEATURE_KEYSPELLS" />
 	<div element="ID_KH_CLASS_FEATURE_KEYBLADE-WIELDER_ABILITY_SCORE_IMPROVEMENT_KEYBLADE-WIELDER" />
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	  </description>
+	<div element="ID_WOTC_PHB_CLASS_FEATURE_KEYBLADE-WIELDER_MAGICKA_RESTORATION" />  
+	</description>
+	<sheet display="false">
+      <description>A champion of the heart.</description>
+       </sheet>
+	<setters>
+      <set name="short">A champion of the heart.</set>
+      <set name="hd">d6</set>
+      <set name="spellcaster">true</set>
+      <set name="spellcastingAbility">Charisma</set>
+    </setters>
+	<rules>
+		
+		EDIT EVERYTHING BELOW HERE!
+		
+      <!-- <grant type="Grants" id="ID_INTERNAL_GRANTS_AVERAGE_HP_D6" /> -->
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+      <select type="Proficiency" name="Skill Proficiency (Sorcerer)" supports="Skill,Sorcerer" number="2" requirements="!ID_WOTC_PHB_MULTICLASS_SORCERER"/>
+
+      <!-- equipment -->
+
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SPELLCASTING_SORCERER" level="1" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_ORIGIN" level="1"/>
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_FONT_OF_MAGIC" level="2" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_METAMAGIC" level="3" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_ABILITY_SCORE_IMPROVEMENT_SORCERER" level="4" />
+      <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_SORCERER_SORCEROUS_RESTORATION" level="20" />
+    </rules>
+    <multiclass id="ID_WOTC_PHB_MULTICLASS_SORCERER">
+      <prerequisite>Charisma 13</prerequisite>
+      <requirements>[cha:13]</requirements>
+      <setters>
+        <set name="multiclass proficiencies">—</set>
+      </setters>
+      <rules>
+        <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+      </rules>
+    </multiclass>
+  </element>
 	
 </elements>
