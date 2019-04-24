@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Keyblade Wielder</name>
+	<description>The Keyblade Wielder class created for a Kingdom Hearts inspired campaign.</description>
+	  <author>AntiAlex</author>
+	  <update version='0.0.1'>
+	    <file name="class.keybladewielder.xml" url="C:\Users\ahenl\Documents\5e Character Builder\custom\user\class.keybladewielder.xml" />
+	  </update>
+  </info>
+  
+  <element name="Keyblade Wielder" type="Class" source="D&amp;D Wiki" id="ID_WIKI_CLASS_KEYBLADE_WIELDER">
+    <description>
+	  <p>Keyblade Wielders are chosen by their Keyblades for their strong hearts.</p>
+	  <h4>CREATING A KEYBLADE WIELDER</h4>
+	  <p>A Keyblade Wielder is trained to protect Kingdom Hearts. This is done primarily by using the Keyblade, a powerful weapon with a heart of it's own.</p>
+	  <h5>QUICK BUILD</h5>
+	  <p>First, you should pick Strength, followed by Dexterity and Constitution.</p>
+	  <h3>CLASS FEATURES</h3>
+	  <p>As a Keyblade Wielder you gain the following class features.</p>
+	  <h5>HIT POINTS</h5>
+	  <p>
+	    <span class="emphasis">Hit Dice:</span>1d6 per Keyblade Wielder level<br/>
+		<span class="emphasis">Hit Points at 1st Level:</span>6 + Constitution modifier<br/>
+		<span class="emphasis">Hit Points at Higher Levels:</span>1d6 (or 4) + your Constitution modifier per Keyblade Wielder level after 1st<br/>
+	  </p>
+	  <h5>PROFICIENCIES</h5>
+	  <p>
+	    <span class="emphasis">Armor:</span>Light armor<br/>
+        <span class="emphasis">Weapons:</span>Martial weapons (or) simple weapons<br/>
+        <span class="emphasis">Tools:</span>None<br/>
+	  </p>
+	  <p>
+        <span class="emphasis">Saving Throws:</span>Strength, Dexterity<br/>
+        <span class="emphasis">Skills:</span>Choose two from Acrobatics, Athletics, History, Medicine, Nature, Perception, and Religion<br/>
+      </p>
+	  <h5>EQUIPMENT</h5>
+      <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+      <ul>
+        <li>(a) a martial weapon or (b) a simple weapon</li>
+        <li>(a) a leather armor or (b) padded armor</li>
+        <li>(a) a dungeoneer's pack or (b) an explorer’s pack</li>
+      </ul>
+	
+</elements>
