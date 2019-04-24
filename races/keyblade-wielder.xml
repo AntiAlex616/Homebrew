@@ -5,11 +5,11 @@
 	<description>The Keyblade Wielder class created for a Kingdom Hearts inspired campaign.</description>
 	  <author>AntiAlex</author>
 	  <update version='0.0.1'>
-	    <file name="keybladewielder.xml" url="<file name="keyblade-wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/races/keyblade-wielder.xml" />
+	    <file name="keyblade-wielder.xml" url="<file name="keyblade-wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/races/keyblade-wielder.xml" />
 	  </update>
   </info>
   
-  <element name="Keyblade Wielder" type="Class" source="D&amp;D Wiki" id="ID_WIKI_CLASS_KEYBLADE_WIELDER">
+  <element name="Keyblade Wielder" type="Class" source="D&amp;D Wiki" id="ID_KH_CLASS_KEYBLADE_WIELDER">
     <description>
 	  <p>Keyblade Wielders are chosen by their Keyblades for their strong hearts.</p>
 	  <h4>CREATING A KEYBLADE WIELDER</h4>
