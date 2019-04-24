@@ -4,7 +4,7 @@
 		<description>Languages for Homebrew content</description>
 		<author>AntiAlex</author>
 		<update version='1.0'>
-			<file name="KH.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/languages/KH.xml" />
+			<file name="KH.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/languages/KH.xml" />
 		</update>
 	</info>
 	
