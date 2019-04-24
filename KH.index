@@ -6,6 +6,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="KH.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/langages/Languages.xml" />
+		<file name="Languages.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/langages/Languages.xml" />
 	</files>
 </index>
