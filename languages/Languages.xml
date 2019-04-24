@@ -3,7 +3,7 @@
 		<name>Languages.xml</name>
 		<description>Languages for Homebrew content</description>
 		<author>AntiAlex</author>
-		<update version='1.0'>
+		<update version="1.0">
 			<file name="Languages.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/languages/Languages.xml" />
 		</update>
 	</info>
