@@ -8,6 +8,6 @@
 	<files>
 		<file name="Languages.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/languages/Languages.xml" />
 		<file name="weapons.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/items/weapons.xml" />
-		<file name="weapons.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/classes/keyblade-wielder.xml" />
+		<file name="keyblade-wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/classes/keyblade-wielder.xml" />
 	</files>
 </index>
