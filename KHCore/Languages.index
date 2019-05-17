@@ -1,0 +1,11 @@
+<index>
+	<info>
+		<name>KH.index</name>
+		<update version="0.1.0">
+			<file name="Languages.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Languages.index" />
+		</update>
+	</info>
+	<files>
+		<file name="Languages.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Languages/Languages.xml" />
+	</files>
+</index>
