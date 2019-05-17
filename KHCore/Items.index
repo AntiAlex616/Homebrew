@@ -1,6 +1,6 @@
 <index>
 	<info>
-		<name>KH.index</name>
+		<name>Items.index</name>
 		<update version="0.1.0">
 			<file name="Items.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Items.index" />
 		</update>
