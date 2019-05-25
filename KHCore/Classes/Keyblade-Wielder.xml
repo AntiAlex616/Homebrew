@@ -4,7 +4,7 @@
     <name>Keyblade Wielder</name>
 	<description>The Keyblade Wielder class created for a Kingdom Hearts inspired campaign.</description>
 	  <author>AntiAlex</author>
-	  <update version="0.6.0">
+	  <update version="0.7.0">
 	    <file name="Keyblade-Wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Wielder.xml" />
 	  </update>
   </info>
@@ -49,17 +49,16 @@
       <div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_HEART_MANIFESTATION" />
     </description>
     <sheet display="false">
-      <description>A spellcaster who draws on inherent magic from a gift or bloodline.</description>
+      <description>A spellcaster who draws on inherent magic from a gift or training.</description>
     </sheet>
     <setters>
-      <set name="short">A spellcaster who draws on inherent magic from a gift or bloodline.</set>
+      <set name="short">A spellcaster who draws on inherent magic from a gift or training.</set>
       <set name="hd">d6</set>
       <set name="spellcaster">true</set>
       <set name="spellcastingAbility">Charisma</set>
     </setters>
     <rules>
       <!-- <grant type="Grants" id="ID_INTERNAL_GRANTS_AVERAGE_HP_D6" /> -->
-      <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_KEYBLADE" requirements="!ID_KH_MULTICLASS_KEYBLADE_WIELDER"/>
       <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_KH_MULTICLASS_KEYBLADE_WIELDER"/>
       <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_KH_MULTICLASS_KEYBLADE_WIELDER"/>
       <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_KH_MULTICLASS_KEYBLADE_WIELDER"/>
@@ -326,7 +325,7 @@
     <supports>Path</supports>
     <requirements />
     <description>
-      <p>Your have rejected the teachings of your former masters in favour of teachings that make more sense to you.</p>
+      <p>You have trained for years to become a Keyblade master but your final test lies in how you apply your master's teachings in the outside world.</p>
       <div element="ID_KH_ARCHETYPE_FEATURE_KEYCHAIN_CRAFTING"/>
       <div element="ID_KH_ARCHETYPE_FEATURE_HEART_RELEASE"/>
       <div element="ID_KH_ARCHETYPE_FEATURE_COMPANIONS"/>
@@ -334,7 +333,7 @@
       <div element="ID_KH_ARCHETYPE_FEATURE_FORM_CHANGE"/>
     </description>
     <sheet>
-      <description>Training in this path provides abilities to help anyone on their journey. From embracing your inner element to providing a faster form of travel.</description>
+      <description>Training in this path provides abilities to help anyone on their journey. From freeing those you come across to adaptability in battles.</description>
     </sheet>
     <rules>
       <grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_KEYCHAIN_CRAFTING" level="1" />
