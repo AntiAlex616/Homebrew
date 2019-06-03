@@ -1,7 +1,7 @@
 <index>
 	<info>
 		<name>KH.index</name>
-		<update version="0.5.0">
+		<update version="0.6.0">
 			<file name="KH.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KH.index" />
 		</update>
 	</info>
@@ -9,5 +9,6 @@
 		<file name="Languages.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Languages.index" />
 		<file name="Items.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Items.index" />
 		<file name="Classes.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes.index" />
+		<file name="Spells.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells.index" />
 	</files>
 </index>
