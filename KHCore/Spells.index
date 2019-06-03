@@ -1,0 +1,12 @@
+    
+<index>
+	<info>
+		<name>Spells.index</name>
+		<update version="0.5.0">
+			<file name="Spells.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells.index" />
+		</update>
+	</info>
+	<files>
+		<file name="Spells.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells/Spells.xml" />
+	</files>
+</index>
