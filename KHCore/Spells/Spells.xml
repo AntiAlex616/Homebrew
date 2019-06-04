@@ -1,347 +1,410 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-  <info>
-    <name>Spells</name>
-    <description>Spells from Kingdom Hearts.</description>
-    <author>AntoAlex</author>
-    <update version="0.3.3">
-      <file name="Spells.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells/Spells.xml" />
-    </update>
-  </info>
-
-<element name="Fire" type="Spell" source="KH" id="ID_KH_SPELL_FIRE">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your basic Fire spell, taught during your training. The target takes 1d6 fire damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d6 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">1</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Fira" type="Spell" source="KH" id="ID_KH_SPELL_FIRA">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your upgraded Fire spell. The target takes 1d8 fire damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d8 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">7</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Firaga" type="Spell" source="KH" id="ID_KH_SPELL_FIRAGA">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your most advanced Fire spell. The target takes 1d10 fire damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d10 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">15</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Blizzard" type="Spell" source="KH" id="ID_KH_SPELL_BLIZZARD">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your basic Blizzard spell, taught during your training. The target takes 1d6 cold damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d6 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">1</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">1 minute</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Blizzara" type="Spell" source="KH" id="ID_KH_SPELL_BLIZZARA">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your upgraded Blizzard spell, taught during your training. The target takes 1d8 cold damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d8 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">7</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">1 minute</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Blizzaga" type="Spell" source="KH" id="ID_KH_SPELL_BLIZZAGA">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your most advanced Blizzard spell, taught during your training. The target takes 1d10 cold damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d10 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">15</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">1 minute</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Cure" type="Spell" source="KH" id="ID_KH_SPELL_CURE">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your basic Cure spell, taught during your training. This can be cast on yourself or an ally within a 5ft radius, you heal Hit Points equal to 1d4 + spellcasting modifier.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d4 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">1</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">5 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Cura" type="Spell" source="KH" id="ID_KH_SPELL_CURA">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your upgraded Cure spell, taught during your training. This can be cast on yourself or an ally within a 5ft radius, you heal Hit Points equal to 1d6 + spellcasting modifier.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d6 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">7</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">5 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Curaga" type="Spell" source="KH" id="ID_KH_SPELL_CURAGA">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your most advanced Cure spell, taught during your training. This can be cast on yourself or an ally within a 5ft radius, you heal Hit Points equal to 1d8 + spellcasting modifier.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d8 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">15</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">5 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Thunder" type="Spell" source="KH" id="ID_KH_SPELL_THUNDER">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your basic Thunder spell, taught during your training. The target takes 1d6 thunder damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d6 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">1</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Thundera" type="Spell" source="KH" id="ID_KH_SPELL_THUNDERA">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your upgraded Thunder spell, taught during your training. The target takes 1d8 thunder damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d8 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">7</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Thundaga" type="Spell" source="KH" id="ID_KH_SPELL_THUNDAGA">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your most advanced Thunder spell, taught during your training. The target takes 1d10 thunder damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d10 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">15</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Aero" type="Spell" source="KH" id="ID_KH_SPELL_AERO">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your basic Aero spell, taught during your training. You create a shield around an ally that negates 1d6 damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d6 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">4</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Aerora" type="Spell" source="KH" id="ID_KH_SPELL_AERORA">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your upgraded Aero spell, taught during your training. You create a shield around an ally that negates 1d8 damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d8 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">10</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Aeroga" type="Spell" source="KH" id="ID_KH_SPELL_AEROGA">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>Your most advanced Aero spell, taught during your training. You create a shield around an ally that negates 1d10 damage.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d10 per spell slot level.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">17</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
-  <element name="Stop" type="Spell" source="KH" id="ID_KH_SPELL_STOP">
-    <supports>keyblade wielder</supports>
-    <description>
-      <p>A complex spell, taught during your training. Time stops for the target, causing it to be frozen in time until the start of your next turn.</p>
-      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 2nd level spell slot or higher you freeze time for an additional turn per spell slot used.</p>
-    </description>
-    <setters>
-      <set name="keywords"></set>
-      <set name="level">1</set>
-      <set name="school">Evocation</set>
-      <set name="time">1 action</set>
-      <set name="duration">Instantaneous</set>
-      <set name="range">30 feet</set>
-      <set name="hasVerbalComponent">true</set>
-      <set name="hasSomaticComponent">false</set>
-      <set name="hasMaterialComponent">true</set>
-      <set name="materialComponent">a focus item</set>
-      <set name="isConcentration">false</set>
-      <set name="isRitual">false</set>
-    </setters>
-  </element>
+	<info>
+		<name>Spells</name>
+		<description>Spells from Kingdom Hearts.</description>
+		<author>AntoAlex</author>
+		<update version="0.4.0">
+			<file name="Spells.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells/Spells.xml" />
+		</update>
+	</info>
+	<element name="Fire" type="Spell" source="KH" id="ID_KH_SPELL_FIRE">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your basic Fire spell, taught during your training. The target takes 1d6 fire damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d6 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Fira" type="Spell" source="KH" id="ID_KH_SPELL_FIRA">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your upgraded Fire spell. The target takes 1d8 fire damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d8 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">7</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Firaga" type="Spell" source="KH" id="ID_KH_SPELL_FIRAGA">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your most advanced Fire spell. The target takes 1d10 fire damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d10 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">15</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Blizzard" type="Spell" source="KH" id="ID_KH_SPELL_BLIZZARD">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your basic Blizzard spell, taught during your training. The target takes 1d6 cold damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d6 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Blizzara" type="Spell" source="KH" id="ID_KH_SPELL_BLIZZARA">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your upgraded Blizzard spell, taught during your training. The target takes 1d8 cold damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d8 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">7</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Blizzaga" type="Spell" source="KH" id="ID_KH_SPELL_BLIZZAGA">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your most advanced Blizzard spell, taught during your training. The target takes 1d10 cold damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d10 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">15</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 minute</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Cure" type="Spell" source="KH" id="ID_KH_SPELL_CURE">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your basic Cure spell, taught during your training. This can be cast on yourself or an ally within a 5ft radius, you heal Hit Points equal to 1d4 + spellcasting modifier.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d4 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Cura" type="Spell" source="KH" id="ID_KH_SPELL_CURA">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your upgraded Cure spell, taught during your training. This can be cast on yourself or an ally within a 5ft radius, you heal Hit Points equal to 1d6 + spellcasting modifier.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d6 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">7</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Curaga" type="Spell" source="KH" id="ID_KH_SPELL_CURAGA">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your most advanced Cure spell, taught during your training. This can be cast on yourself or an ally within a 5ft radius, you heal Hit Points equal to 1d8 + spellcasting modifier.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d8 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">15</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">5 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Thunder" type="Spell" source="KH" id="ID_KH_SPELL_THUNDER">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your basic Thunder spell, taught during your training. The target takes 1d6 thunder damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d6 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Thundera" type="Spell" source="KH" id="ID_KH_SPELL_THUNDERA">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your upgraded Thunder spell, taught during your training. The target takes 1d8 thunder damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d8 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">7</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Thundaga" type="Spell" source="KH" id="ID_KH_SPELL_THUNDAGA">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your most advanced Thunder spell, taught during your training. The target takes 1d10 thunder damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d10 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">15</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Aero" type="Spell" source="KH" id="ID_KH_SPELL_AERO">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your basic Aero spell, taught during your training. You create a shield around an ally that negates 1d6 damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d6 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">4</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Aerora" type="Spell" source="KH" id="ID_KH_SPELL_AERORA">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your upgraded Aero spell, taught during your training. You create a shield around an ally that negates 1d8 damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d8 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">10</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Aeroga" type="Spell" source="KH" id="ID_KH_SPELL_AEROGA">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>Your most advanced Aero spell, taught during your training. You create a shield around an ally that negates 1d10 damage.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you use an additional 1d10 per spell slot level.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">17</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Stop" type="Spell" source="KH" id="ID_KH_SPELL_STOP">
+		<supports>keyblade wielder</supports>
+		<description>
+			<p>A complex spell, taught during your training. Time stops for the target, causing it to be frozen in time until the start of your next turn.</p>
+			<p class="indent">
+				<b>
+					<i>At Higher Levels.</i>
+				</b> When you cast this spell using a 2nd level spell slot or higher you freeze time for an additional turn per spell slot used.
+			</p>
+		</description>
+		<setters>
+			<set name="keywords"></set>
+			<set name="level">1</set>
+			<set name="school">Evocation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">30 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">a focus item</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
