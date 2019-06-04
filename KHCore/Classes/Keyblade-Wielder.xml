@@ -4,7 +4,7 @@
     <name>Keyblade Wielder</name>
 	<description>The Keyblade Wielder class created for a Kingdom Hearts inspired campaign.</description>
 	  <author>AntiAlex</author>
-	  <update version="0.6.0">
+	  <update version="0.6.1">
 	    <file name="Keyblade-Wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Wielder.xml" />
 	  </update>
   </info>
@@ -86,7 +86,7 @@
   </element>
 	<!-- keyblade wielder Class Features -->
   <element name="Spellcasting" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING">
-    <supports>ID_INTERNAL_SUPPORT_SPELLCASTING,Keyblade Wielder</supports>
+    <supports>ID_INTERNAL_SUPPORT_SPELLCASTING,keyblade wielder</supports>
     <requirements />
     <description>
       <p>You've trained since a young age to not only master a Keyblade but to use magic to aid you in your adventures.</p>
