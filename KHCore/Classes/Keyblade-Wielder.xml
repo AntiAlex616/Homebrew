@@ -4,7 +4,7 @@
 		<name>Keyblade Wielder</name>
 		<description>The Keyblade Wielder class created for a Kingdom Hearts inspired campaign.</description>
 		<author>AntiAlex</author>
-		<update version="0.6.4">
+		<update version="0.6.5">
 			<file name="Keyblade-Wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Wielder.xml" />
 		</update>
 	</info>
@@ -145,15 +145,15 @@
 			<select type="Spell" name="Cantrip (keyblade wielder)" supports="$(spellcasting:list),0" level="5" spellcasting="keyblade wielder"/>
 			<select type="Spell" name="Cantrip (keyblade wielder)" supports="$(spellcasting:list),0" level="10" spellcasting="keyblade wielder"/>
 			<select type="Spell" name="Cantrip (keyblade wielder)" supports="$(spellcasting:list),0" level="15" spellcasting="keyblade wielder"/>
-			<select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="keyblade wielder"/>
-			<select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="keyblade wielder"/>
-			<select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="keyblade wielder"/>
-			<select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="keyblade wielder"/>
-			<select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="keyblade wielder"/>
-			<select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="keyblade wielder"/>
-			<select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="keyblade wielder"/>
-			<select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="keyblade wielder"/>
-			<select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="keyblade wielder"/>
+			<select type="Spell" name="Spellcasting (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="keyblade wielder"/>
+			<select type="Spell" name="Spellcasting (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="keyblade wielder"/>
+			<select type="Spell" name="Spellcasting (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="keyblade wielder"/>
+			<select type="Spell" name="Spellcasting (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="keyblade wielder"/>
+			<select type="Spell" name="Spellcasting (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="keyblade wielder"/>
+			<select type="Spell" name="Spellcasting (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="keyblade wielder"/>
+			<select type="Spell" name="Spellcasting (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="keyblade wielder"/>
+			<select type="Spell" name="Spellcasting (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="keyblade wielder"/>
+			<select type="Spell" name="Spellcasting (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="keyblade wielder"/>
 		</rules>
 	</element>
 	<element name="Path" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_PATH">
