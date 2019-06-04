@@ -8,7 +8,6 @@
 	    <file name="Keyblade-Wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Wielder.xml" />
 	  </update>
   </info>
-  
   <element name="Keyblade Wielder" type="Class" source="KH" id="ID_KH_CLASS_KEYBLADE_WIELDER">
     <description>
 	  <p>Keyblade Wielders are chosen by their Keyblades for their strong hearts.</p>
@@ -63,9 +62,6 @@
       <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_KH_MULTICLASS_KEYBLADE_WIELDER"/>
       <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_KH_MULTICLASS_KEYBLADE_WIELDER"/>
       <select type="Proficiency" name="Skill Proficiency (Keyblade Wielder)" supports="Skill, Keyblade Wielder" number="2" requirements="!ID_KH_MULTICLASS_KEYBLADE_WIELDER"/>
-
-      <!-- equipment -->
-
       <grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING_KEYBLADE_WIELDER" level="1" />
       <grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_PATH" level="1"/>
       <grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_RECHARGE" level="3" />
@@ -118,7 +114,6 @@
     </spellcasting>
     <rules>
       <grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
-
       <stat name="keyblade wielder:spellcasting:slots:1" value="2" level="1" />
       <stat name="keyblade wielder:spellcasting:slots:1" value="1" level="2" />
       <stat name="keyblade wielder:spellcasting:slots:1" value="1" level="3" />
@@ -138,12 +133,10 @@
       <stat name="keyblade wielder:spellcasting:slots:7" value="1" level="20" />
       <stat name="keyblade wielder:spellcasting:slots:8" value="1" level="15" />
       <stat name="keyblade wielder:spellcasting:slots:9" value="1" level="17" />
-     
       <select type="Spell" name="Cantrip (keyblade wielder)" supports="$(spellcasting:list),0" level="1" number="4" spellcasting="keyblade wielder" />
       <select type="Spell" name="Cantrip (keyblade wielder)" supports="$(spellcasting:list),0" level="5" spellcasting="keyblade wielder"/>
 	  <select type="Spell" name="Cantrip (keyblade wielder)" supports="$(spellcasting:list),0" level="10" spellcasting="keyblade wielder"/>
 	  <select type="Spell" name="Cantrip (keyblade wielder)" supports="$(spellcasting:list),0" level="15" spellcasting="keyblade wielder"/>
-      
       <select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="keyblade wielder"/>
       <select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="keyblade wielder"/>
       <select type="Spell" name="Spell (keyblade wielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="keyblade wielder"/>
@@ -225,8 +218,6 @@
     </sheet>
     <rules />
   </element>
-	
-	
 	<element name="Seekers of Darkness" type="Archetype" source="KH" id="ID_KH_ARCHETYPE_SEEKERS_OF_DARKNESS">
     <supports>Path</supports>
     <requirements />
@@ -249,7 +240,6 @@
       <grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_DARK_GRASP" level="18" />
     </rules>
   </element>
-  
   <element name="Keychain Crafting" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_KEYCHAIN_CRAFTING">
     <supports>Seekers of Darkness</supports>
     <requirements />
@@ -261,7 +251,6 @@
     </sheet>
     <rules />
   </element>
-  
   <element name="Elemental Embrace" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_ELEMENTAL_EMBRACE">
     <supports>Seekers of Darkness</supports>
     <requirements />
@@ -280,7 +269,6 @@
       <description>For any attack with a weapon roll an additional 1d4 for elemental damage, does not override elements already on a weapon. When using your Heart Manifestation roll a 1d4, this damage applies to all creatures that get damaged by Heart Manifestation.</description>
     </sheet>
   </element>
-  
    <element name="Shadow Influence" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_SHADOW_INFLUENCE">
     <supports>Seekers of Darkness</supports>
     <requirements />
@@ -292,7 +280,6 @@
     </sheet>
     <rules />
   </element>
-  
    <element name="Dark Corridor" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_DARK_CORRIDOR">
     <supports>Seekers of Darkness</supports>
     <requirements />
@@ -304,7 +291,6 @@
     </sheet>
     <rules />
   </element>
-  
    <element name="Dark Grasp" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_DARK_GRASP">
     <supports>Seekers of Darkness</supports>
     <requirements />
@@ -315,8 +301,7 @@
       <description>A shadow arm grabs an enemy causing 1d20 damage, plus an additional 1d10 Elemental Embrace damage. Uses 2 actions.</description>
     </sheet>
     <rules />
-  </element>
-	
+	</element>	
 	<element name="Guardians of Light" type="Archetype" source="KH" id="ID_KH_ARCHETYPE_GUARDIANS_OF_LIGHT">
     <supports>Path</supports>
     <requirements />
@@ -339,7 +324,6 @@
       <grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_FORM_CHANGE" level="18" />
     </rules>
   </element>
-  
   <element name="Keychain Crafting" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_KEYCHAIN_CRAFTING">
     <supports>Guardians of Light</supports>
     <requirements />
@@ -351,7 +335,6 @@
     </sheet>
     <rules />
   </element>
-  
   <element name="Heart Release" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_HEART_RELEASE">
     <supports>Guardians of Light</supports>
     <requirements />
@@ -362,7 +345,6 @@
       <description>Roll 1d20 to attempt to calm a negative emotion and restore a heart. If used in battle it uses 1 action.</description>
     </sheet>
   </element>
-  
    <element name="Companions" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_COMPANIONS">
     <supports>Guardians of Light</supports>
     <requirements />
@@ -374,7 +356,6 @@
     </sheet>
     <rules />
   </element>
-  
    <element name="Summoning" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_SUMMONING">
     <supports>Guardians of Light</supports>
     <requirements />
@@ -386,7 +367,6 @@
     </sheet>
     <rules />
   </element>
-  
    <element name="Form Change" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_FORM_CHANGE">
     <supports>Guardians of Light</supports>
     <requirements />
@@ -397,8 +377,5 @@
       <description>Can be used once per battle and uses 1 action but lasts the entire battle unless dismissed which also uses 1 action.</description>
     </sheet>
     <rules />
-  </element>
-		
-		
-	
+  </element>	
 </elements>
