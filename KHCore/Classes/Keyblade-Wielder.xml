@@ -41,7 +41,7 @@
         <li>(a) a leather armor or (b) padded armor</li>
         <li>(a) a dungeoneer's pack or (b) an explorer’s pack</li>
       </ul>
-	    <div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING" />
+	    <div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING_KEYBLADE_WIELDER" />
       <div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_PATH" />
       <div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_RECHARGE" />
       <div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_ADDITIONAL_ATTACK" />
@@ -66,7 +66,7 @@
 
       <!-- equipment -->
 
-      <grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING" level="1" />
+      <grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING_KEYBLADE_WIELDER" level="1" />
       <grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_PATH" level="1"/>
       <grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_RECHARGE" level="3" />
       <grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_ADDITIONAL_ATTACK" level="5" />
@@ -85,7 +85,7 @@
     </multiclass>
   </element>
 	<!-- keyblade wielder Class Features -->
-  <element name="Spellcasting" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING">
+  <element name="Spellcasting" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING_KEYBLADE_WIELDER">
     <supports>ID_INTERNAL_SUPPORT_SPELLCASTING,keyblade wielder</supports>
     <requirements />
     <description>
