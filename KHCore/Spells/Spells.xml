@@ -4,7 +4,7 @@
 		<name>Spells</name>
 		<description>Spells from Kingdom Hearts.</description>
 		<author>AntoAlex</author>
-		<update version="0.4.0">
+		<update version="0.4.3">
 			<file name="Spells.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells/Spells.xml" />
 		</update>
 	</info>
@@ -408,3 +408,4 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+</elements>
