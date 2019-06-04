@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Spells.index</name>
-		<update version="0.5.0">
+		<update version="0.5.3">
 			<file name="Spells.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells.index" />
 		</update>
 	</info>
