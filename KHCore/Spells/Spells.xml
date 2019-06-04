@@ -1,3 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Spells</name>
+    <description>Spells from Kingdom Hearts.</description>
+    <author>AntoAlex</author>
+    <update version="0.3.3">
+      <file name="Spells.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells/Spells.xml" />
+    </update>
+  </info>
+
 <element name="Fire" type="Spell" source="KH" id="ID_KH_SPELL_FIRE">
     <supports>keyblade wielder</supports>
     <description>
