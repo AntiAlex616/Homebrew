@@ -8,6 +8,9 @@
 			<file name="Keyblade-Wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Wielder.xml" />
 		</update>
 	</info>
+	<spellcasting name="Keyblade Wielder" ability="Intelligence">
+    <list>KeybladeWielder</list>
+</spellcasting>
 	<element name="Keyblade Wielder" type="Class" source="KH" id="ID_KH_CLASS_KEYBLADE_WIELDER">
 		<description>
 			<p>Keyblade Wielders are chosen by their Keyblades for their strong hearts.</p>
