@@ -8,7 +8,7 @@
 			<file name="Spells.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells/Spells.xml" />
 		</update>
 	</info>
-	<spellcasting name="Keyblade Wielder" extend="true">
+	<spellcasting name="KeybladeWielder" extend="true">
     <extend>KeybladeWielder</extend>
 </spellcasting>
 	<element name="Fire" type="Spell" source="KH" id="ID_KH_SPELL_FIRE">
