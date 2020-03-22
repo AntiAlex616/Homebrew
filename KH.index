@@ -6,7 +6,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="Languages.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Languages.index" />
 		<file name="Items.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Items.index" />
 		<file name="Classes.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes.index" />
 		<file name="Spells.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells.index" />
