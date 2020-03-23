@@ -14,7 +14,7 @@
 			<h4>CREATING A KEYBLADE WIELDER</h4>
 			<p>A Keyblade Wielder is trained to protect Kingdom Hearts. This is done primarily by using the Keyblade, a powerful weapon with a heart of it's own.</p>
 			<h5>QUICK BUILD</h5>
-			<p>First, you should pick Strength followed by either Constitutionor Wisdom depending on how you would like to play your character.</p>
+			<p>First, you should pick Strength followed by either Constitution or Wisdom depending on how you would like to play your character.</p>
 			<h3>CLASS FEATURES</h3>
 			<p>As a Keyblade Wielder you gain the following class features.</p>
 			<h5>HIT POINTS</h5>
@@ -27,14 +27,11 @@
 				<br/>
 			</p>
 			<h5>PROFICIENCIES</h5>
-			<p>
-				<span class="emphasis">Armor:</span>Light armor
-				<br/>
-				<span class="emphasis">Weapons:</span>Keyblades
-				<br/>
-				<span class="emphasis">Tools:</span>None
-				<br/>
-			</p>
+           		 <ul class="unstyled mb">
+               		 <li><strong>Armor:</strong> Light armor</li>
+           		 <li><strong>Weapons:</strong> Keyblades</li>
+               		 <li><strong>Tools:</strong> None</li>
+           		</ul>
 			<p>
 				<span class="emphasis">Saving Throws:</span>Strength
 				<br/>
