@@ -29,7 +29,7 @@
 			<h5>PROFICIENCIES</h5>
            		 <ul class="unstyled mb">
                		 <li><strong>Armor:</strong> Medium armor</li>
-           		 <li><strong>Weapons:</strong> Keyblades</li>
+           		 <li><strong>Weapons:</strong> Simple Wepaons</li>
                		 <li><strong>Tools:</strong> None</li>
            		</ul>
 			<p>
@@ -45,7 +45,7 @@
 				<li>(a) a leather armor or (b) padded armor</li>
 				<li>(a) a dungeoneer's pack or (b) an explorer’s pack</li>
 			</ul>
-			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING_KEYBLADE_WIELDER" />
+			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING_KEYBLADEWIELDER" />
 			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_PATH" />
 			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_RECHARGE" />
 			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_ADDITIONAL_ATTACK" />
