@@ -9,7 +9,7 @@
   </info>
   
   <element name="Keyblade" type="Weapon" source="KH" id="ID_KH_KEYBLADE">
-		<supports>ID_INTERNAL_WEAPON_CATEGORY_KEYBLADE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_KEYBLADE</supports>
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_WEAPONS, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_DAMAGE_TYPE_BASHING</supports>
 		<description>
 			<p></p>
 		</description>
@@ -20,7 +20,7 @@
 			<set name="slot">onehand</set>
 			<set name="damage" type="slashing">1d8</set>
 			<set name="versatile">1d10</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KEYBLADES</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS</set>
 		</setters>
 	</element>
 	
