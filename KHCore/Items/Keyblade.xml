@@ -3,7 +3,7 @@
     <name>Keyblade</name>
 	<description></description>
 	  <author>AntiAlex</author>
-	  <update version="0.0.1">
+	  <update version="0.0.3">
 	    <file name="Keyblades.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Items/Keyblade.xml" />
 	  </update>
   </info>
@@ -20,7 +20,7 @@
 			<set name="slot">onehand</set>
 			<set name="damage" type="slashing">1d8</set>
 			<set name="versatile">1d10</set>
-			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_KEYBLADE</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD</set>
 		</setters>
 	</element>
 </elements>
