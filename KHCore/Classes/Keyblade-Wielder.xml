@@ -8,7 +8,7 @@
 			<file name="Keyblade-Wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Wielder.xml" />
 		</update>
 	</info>
-	<element name="Keyblade Wielder" type="Class" source="KH" id="ID_KH_CLASS_KEYBLADEWIELDER">
+	<element name="Keyblade Wielder" type="Class" source="KH" id="ID_KH_CLASS_KEYBLADEWIELDER"/>
 		<description>
 			<p>Keyblade Wielders are chosen by their Keyblades for their strong hearts.</p>
 			<h4>CREATING A KEYBLADE WIELDER</h4>
