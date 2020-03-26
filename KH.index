@@ -1,7 +1,7 @@
 <index>
 	<info>
 		<name>KH.index</name>
-		<update version="0.6.6">
+		<update version="0.7">
 			<file name="KH.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KH.index" />
 		</update>
 	</info>
