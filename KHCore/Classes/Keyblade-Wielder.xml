@@ -41,9 +41,6 @@
 			<multiclass id="ID_KH_MULTICLASS_KEYBLADEWIELDER">
 			<prerequisite>Intelligence 13</prerequisite>
 			<requirements>[int:13]</requirements>
-			<setters>
-				<set name="multiclass proficiencies">—</set>
-			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
 				<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_KEYBLADEWIELDER" level="4"/>
