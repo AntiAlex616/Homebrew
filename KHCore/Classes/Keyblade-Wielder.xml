@@ -4,17 +4,15 @@
 		<name>Keyblade Wielder</name>
 		<description>The Keyblade Wielder class created for a Kingdom Hearts inspired campaign.</description>
 		<author>AntiAlex</author>
-		<update version="0.6.5">
+		<update version="0.7">
 			<file name="Keyblade-Wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Wielder.xml" />
 		</update>
 	</info>
-	<element name="Keyblade Wielder" type="Class" source="KH" id="ID_KH_CLASS_KEYBLADE_WIELDER">
+	<element name="Keyblade Wielder" type="Class" source="KH" id="ID_KH_CLASS_KEYBLADEWIELDER">
 		<description>
 			<p>Keyblade Wielders are chosen by their Keyblades for their strong hearts.</p>
 			<h4>CREATING A KEYBLADE WIELDER</h4>
 			<p>A Keyblade Wielder is trained to protect Kingdom Hearts. This is done primarily by using the Keyblade, a powerful weapon with a heart of it's own.</p>
-			<h5>QUICK BUILD</h5>
-			<p>First, you should pick Strength followed by either Constitution or Wisdom depending on how you would like to play your character.</p>
 			<h3>CLASS FEATURES</h3>
 			<p>As a Keyblade Wielder you gain the following class features.</p>
 			<h5>HIT POINTS</h5>
@@ -26,349 +24,114 @@
 				<span class="emphasis">Hit Points at Higher Levels:</span>1d6 (or 4) + your Constitution modifier per Keyblade Wielder level after 1st
 				<br/>
 			</p>
-			<h5>PROFICIENCIES</h5>
-           		 <ul class="unstyled mb">
-               		 <li><strong>Armor:</strong> None</li>
-           		 <li><strong>Weapons:</strong> None</li>
-               		 <li><strong>Tools:</strong> None</li>
-           		</ul>
-			<p>
-				<span class="emphasis">Saving Throws:</span>Strength
-				<br/>
-				<span class="emphasis">Skills:</span>Choose two from Acrobatics, Athletics, History, Medicine, Nature, Perception, and Religion
-				<br/>
-			</p>
 			<h5>EQUIPMENT</h5>
 			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
 			<ul>
-				<li>a Keyblade</li>
-				<li>(a) a leather armor or (b) padded armor</li>
 				<li>(a) a dungeoneer's pack or (b) an explorer’s pack</li>
 			</ul>
-			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING_KEYBLADEWIELDER" />
-			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_PATH" />
-			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_RECHARGE" />
-			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_ADDITIONAL_ATTACK" />
-			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_ABILITY_SCORE_IMPROVEMENT_KEYBLADE_WIELDER" />
-			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_HEART_MANIFESTATION" />
-		</description>
-		<sheet display="false">
-			<description>A spellcaster who draws on inherent magic from a gift or training.</description>
-		</sheet>
-		<setters>
-			<set name="short">A spellcaster who draws on inherent magic from a gift or training.</set>
-			<set name="hd">d6</set>
-			<set name="spellcaster">true</set>
-			<set name="spellcastingAbility">Charisma</set>
-		</setters>
-		<rules>
-			<!-- <grant type="Grants" id="ID_INTERNAL_GRANTS_AVERAGE_HP_D6" /> -->
-			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" requirements="!ID_KH_MULTICLASS_KEYBLADE_WIELDER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_KH_MULTICLASS_KEYBLADE_WIELDER"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" requirements="!ID_KH_MULTICLASS_KEYBLADE_WIELDER"/>
-			<select type="Proficiency" name="Skill Proficiency (Keyblade Wielder)" supports="Skill, Keyblade Wielder" number="2" requirements="!ID_KH_MULTICLASS_KEYBLADE_WIELDER"/>
-			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING_KEYBLADE_WIELDER" level="1" />
-			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_PATH" level="1"/>
-			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_RECHARGE" level="3" />
-			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_ADDITIONAL_ATTACK" level="5" />
-			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_ABILITY_SCORE_IMPROVEMENT_KEYBLADE_WIELDER" level="4" />
-			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_HEART_MANIFESTATION" level="20" />
-		</rules>
-		<multiclass id="ID_KH_MULTICLASS_KEYBLADE_WIELDER">
-			<prerequisite>Charisma 13</prerequisite>
-			<requirements>[cha:13]</requirements>
+			</description>
+			
+			<div element="ID_KH_CLASS_FEATURE_KEYBLADEWIELDER_FOCUS" />
+			<div element="ID_KH_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_KEYBLADEWIELDER
+			
+			<rules>
+			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADEWIELDER_FOCUS" level="1"/>
+			
+			</rules>
+			<multiclass id="ID_KH_MULTICLASS_KEYBLADEWIELDER">
+			<prerequisite>Intelligence 13</prerequisite>
+			<requirements>[int:13]</requirements>
 			<setters>
 				<set name="multiclass proficiencies">—</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_KEYBLADEWIELDER" level="4"/>
 			</rules>
 		</multiclass>
-	</element>
-	<!-- keyblade wielder Class Features -->
-	<element name="Spellcasting" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_SPELLCASTING_KEYBLADE_WIELDER">
-		<supports>KeybladeWielder</supports>
-		<requirements />
+			
+			<element name="Keyblade Wielder Archetype" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADEWIELDER_FOCUS">
 		<description>
-			<p>You've trained since a young age to not only master a Keyblade but to use magic to aid you in your adventures.</p>
-			<h5>CANTRIPS</h5>
-			<p>Is this needed? Could be used for abilities? Sonic Blade, Ragnarok etc.</p>
-			<h5>SPELL SLOTS</h5>
-			<p>The table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
-			<p class="indent">For example, if you know the 1st-level spell Fire and have a 1st-level and a 2nd-level spell slot available, you can cast Fire using either slot.</p>
-			<h5>SPELLS KNOWN OF 1ST LEVEL AND HIGHER</h5>
-			<p>You know two 1st-level spells of your choice from the Keyspells spell list.</p>
-			<p class="indent">The Spells Known column of the Keyspells table shows when you learn more Keyspells spells of your choice. Each of these spells must be of a level for which you have spell slots.</p>
-			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the Keyspells you know and replace it with another spell from the Keyspells spell list, which also must be of a level for which you have spell slots.</p>
-			<h5>SPELLCASTING ABILITY</h5>
-			<p>Charisma is your spellcasting ability for your Keyspells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Keyspell you cast and when making an attack roll with one.</p>
-			<p class="indent">Spell save DC = 8 + your proficiency bonus + your Charisma modifier</p>
-			<p class="indent">Spell attack modifier = your proficiency bonus + your Charisma modifier</p>
-			<h5>SPELLCASTING FOCUS</h5>
-			<p>A Keyblade, or any weapon enhanced with a Keychain, can be used as a spellcasting focus for all kinds of spells.</p>
-		</description>
-		<sheet display="false">
-			<description>You have the ability to cast spells.</description>
-		</sheet>
-		<setters>
-			<set name="spellcastingClass">Keyblade Wielder</set>
-			<set name="spellcastingAbility">Charisma</set>
-		</setters>
-		<spellcasting name="KeybladeWielder" ability="Intelligence" allowReplace="true">
-			<list>KeybladeWielder</list>
-		</spellcasting>
-		<rules>
-			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
-			<stat name="keybladewielder:spellcasting:slots:count" value="1" level="1" />
-			<stat name="keybladewielder:spellcasting:slots:count" value="1" level="5" />
-			<stat name="keybladewielder:spellcasting:slots:count" value="1" level="10" />
-			<select type="Spell" name="Spellcasting (KeybladeWielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="KeybladeWielder"/>
-			<select type="Spell" name="Spellcasting (KeybladeWielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="KeybladeWielder"/>
-			<select type="Spell" name="Spellcasting (KeybladeWielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="10" spellcasting="KeybladeWielder"/>
-			<select type="Spell" name="Spellcasting (KeybladeWielder)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="KeybladeWielder"/>
-		</rules>
-	</element>
-	<element name="Path" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_PATH">
-		<supports>Keyblade Wielder</supports>
-		<requirements />
-		<description>
-			<p>Choose a path, which describes the source of your heart: Light or Dark, both detailed at the end of the class description.</p>
-			<p class="indent">Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</p>
-		</description>
-		<sheet />
-		<rules>
-			<select type="Archetype" name="Path" supports="Path" />
-		</rules>
-	</element>
-	<element name="Recharge" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_RECHARGE">
-		<supports>Keyblade Wielder</supports>
-		<requirements />
-		<description>
-			<p>At 3rd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by recharge points, which allow you to trigger a magical recharge.</p>
-			<h5>RECHARGE POINTS</h5>
-			<p>You have 2 recharge points, and you gain more as you reach higher levels, as shown in the Recharge Points column of the Recharge table. You can never have more recharge points than shown on the table for your level. Using a recharge point takes one of your actions in your turn. You regain all spent recharge points when you finish a long rest.</p>
-		</description>
-		<sheet>
-			<description>You have {{recharge-points}} Recharge Points.</description>
-		</sheet>
-		<rules>
-			<stat name="recharge-points" value="level:recharge" />
-		</rules>
-	</element>
-	<element name="Additional Attack" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_ADDITIONAL_ATTACK">
-		<supports>Keyblade Wielder</supports>
-		<requirements />
-		<description>
-			<p>At 5th level, you gain an additional attack per turn. You gain another one at 10th and 15th level.</p>
-		</description>
-		<sheet display="true"/>
-		<rules>
-			<select type="Class Feature" name="Additional Attack" supports="Additional Attack" level="5" />
-			<select type="Class Feature" name="Additional Attack" supports="Additional Attack" level="10"/>
-			<select type="Class Feature" name="Additional Attack" supports="Additional Attack" level="15"/>
-		</rules>
-	</element>
-	<element name="Ability Score Improvement" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_ABILITY_SCORE_IMPROVEMENT_KEYBLADE_WIELDER">
-		<supports />
-		<description>
-			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+			<p>Warrior, Mystic or Guardian</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<!-- <grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_4_KEYBLADE_WIELDER" level="4" requirements="!ID_INTERNAL_OPTION_ALLOW_FEATS" /><grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_8_KEYBLADE_WIELDER" level="8" requirements="!ID_INTERNAL_OPTION_ALLOW_FEATS" /><grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_12_KEYBLADE_WIELDER" level="12" requirements="!ID_INTERNAL_OPTION_ALLOW_FEATS" /><grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_16_KEYBLADE_WIELDER" level="16" requirements="!ID_INTERNAL_OPTION_ALLOW_FEATS" /><grant type="Class Feature" id="ID_INTERNAL_CLASS_FEATURE_ASI_19_KEYBLADE_WIELDER" level="19" requirements="!ID_INTERNAL_OPTION_ALLOW_FEATS" /> -->
+			<select type="Archetype" name="Keyblade Wielder Archetype" supports="Keyblade Wielder Archetype" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_KEYBLADEWIELDER">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
 			<select type="Class Feature" name="Improvement Option (Keyblade Wielder 4)" supports="Improvement Option,Keyblade Wielder,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Wielder 6)" supports="Improvement Option,Keyblade Wielder,6" level="6" />
 			<select type="Class Feature" name="Improvement Option (Keyblade Wielder 8)" supports="Improvement Option,Keyblade Wielder,8" level="8" />
 			<select type="Class Feature" name="Improvement Option (Keyblade Wielder 12)" supports="Improvement Option,Keyblade Wielder,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Wielder 14)" supports="Improvement Option,Keyblade Wielder,14" level="14" />
 			<select type="Class Feature" name="Improvement Option (Keyblade Wielder 16)" supports="Improvement Option,Keyblade Wielder,16" level="16" />
 			<select type="Class Feature" name="Improvement Option (Keyblade Wielder 19)" supports="Improvement Option,Keyblade Wielder,19" level="19" />
 		</rules>
-	</element>
-	<element name="Heart's Release" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WIELDER_HEART_MANIFESTATION">
-		<supports>Keyblade Wielder</supports>
-		<requirements />
+	</element>	
+		<element name="Warrior" type="Archetype" source="KH" id="ID_KH_ARCHETYPE_WARRIOR">
+		<supports>Keyblade Wielder Archetype</supports>
 		<description>
-			<p>At 20th level, you gain your best ability which can only be used once per long rest.</p>
+			<p>During your training at Scala ad Caelum you became proficient in the use of melee weapons.</p>
+			<div element="ID_KH_ARCHETYPE_FEATURE_CHARGE"/>
+			<div element="ID_KH_ARCHETYPE_FEATURE_COMBO+"/>
+			<div element="ID_KH_ARCHETYPE_FEATURE_SOCKET"/>
+			<div element="ID_KH_ARCHETYPE_FEATURE_VALOR"/>
 		</description>
-		<sheet>
-			<description>Heart's release deals damage in a circular area, range of 20ft centred on the user. Damage dealt is determined by rolling a d20 + Charisma modifier.</description>
-		</sheet>
-		<rules />
-	</element>
-	<element name="Seekers of Darkness" type="Archetype" source="KH" id="ID_KH_ARCHETYPE_SEEKERS_OF_DARKNESS">
-		<supports>Path</supports>
-		<requirements />
-		<description>
-			<p>Your have rejected the teachings of your former masters in favour of teachings that make more sense to you.</p>
-			<div element="ID_KH_ARCHETYPE_FEATURE_KEYCHAIN_CRAFTING"/>
-			<div element="ID_KH_ARCHETYPE_FEATURE_ELEMENTAL_EMBRACE"/>
-			<div element="ID_KH_ARCHETYPE_FEATURE_SHADOW_INFLUENCE"/>
-			<div element="ID_KH_ARCHETYPE_FEATURE_DARK_CORRIDOR"/>
-			<div element="ID_KH_ARCHETYPE_FEATURE_DARK_GRASP"/>
-		</description>
-		<sheet>
-			<description>Training in this path provides abilities to help anyone on their journey. From embracing your inner element to providing a faster form of travel.</description>
+		<sheet display="false">
+			<description>Your warrior spirit shines brightly in the darkness.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_KEYCHAIN_CRAFTING" level="1" />
-			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_ELEMENTAL_EMBRACE" level="1" />
-			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_SHADOW_INFLUENCE" level="6" />
-			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_DARK_CORRIDOR" level="14" />
-			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_DARK_GRASP" level="18" />
+			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_CHARGE" level="1" />
+			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_COMBO+" level="5" />
+			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_SOCKET" level="10" />
+			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_VALOR" level="15" />
 		</rules>
 	</element>
-	<element name="Keychain Crafting" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_KEYCHAIN_CRAFTING">
-		<supports>Seekers of Darkness</supports>
-		<requirements />
+	<element name="CHARGE" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_CHARGE">
+		<supports>Warrior</supports>
 		<description>
-			<p>Starting at 1st level. You gain the ability to craft your own Keychains, these Keychains serve to alter the appearance and effectiveness of any weapon it is attached to as well as providing proficiency in the weapon. Each Keychain takes a full day to create and if you wish to attach it to a weapon that isn't already modified for that purpose that will take an additional day.</p>
+			<p>At 1st level, you gain  the ability Charge</p>
+			<h5 class="caption">CHARGE</h5>
+			<p>Once every 4 turns you may use charge to close the distance between you and an enemy by 10 foot and attack. This uses 1 action.</p>
 		</description>
 		<sheet>
-			<description>Can craft Keychains. The base cost is 1 day plus any relevant materials. Creating a 'socket' on a weapon costs 1 day plus 1000 Munny or 100 Gold</description>
-		</sheet>
-		<rules />
-	</element>
-	<element name="Elemental Embrace" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_ELEMENTAL_EMBRACE">
-		<supports>Seekers of Darkness</supports>
-		<requirements />
-		<description>
-			<p>At 1st level, you choose one type of element which can be used in any attacks with your weapon as well as providing an elemental effect for your Heart Manifestation. </p>
-			<h5>Elemental Embrace</h5>
-			<table>
-				<thead>
-					<tr>
-						<td>Dragon</td>
-						<td>Damage Type</td>
-					</tr>
-				</thead>
-				<tr>
-					<td>Red</td>
-					<td>Fire</td>
-				</tr>
-				<tr>
-					<td>Yellow</td>
-					<td>Lightning</td>
-				</tr>
-				<tr>
-					<td>Blue</td>
-					<td>Cold/Blizzard</td>
-				</tr>
-				<tr>
-					<td>Green</td>
-					<td>Poison</td>
-				</tr>
-			</table>
-		</description>
-		<sheet>
-			<description>For any attack with a weapon roll an additional 1d4 for elemental damage, does not override elements already on a weapon. When using your Heart Manifestation roll a 1d4, this damage applies to all creatures that get damaged by Heart Manifestation.</description>
+			<description>Once every 4 turns you may use charge to close the distance between you and an enemy by 10 foot and attack. This uses 1 action.</description>
 		</sheet>
 	</element>
-	<element name="Shadow Influence" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_SHADOW_INFLUENCE">
-		<supports>Seekers of Darkness</supports>
-		<requirements />
+	<element name="COMBO+" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_COMBO+">
 		<description>
-			<p>Starting at 6th level, you may try to influence the darkness in people's hearts to encourage them to abandon the light. Prominent figures may turn into unique Heartless while the vast majority of the population will turn into more common Heartless. Also allows you to summon Shadows to your side outside of battle.</p>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+			<p class="indent">The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class.</p>
 		</description>
 		<sheet>
-			<description>Summon Shadows outside of battle or darken someone's heart.</description>
-		</sheet>
-		<rules />
-	</element>
-	<element name="Dark Corridor" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_DARK_CORRIDOR">
-		<supports>Seekers of Darkness</supports>
-		<requirements />
-		<description>
-			<p>Starting at 14th level, you master the ability to create and travel through your own Dark Corridors to places you have already been or to your master. This form of travel is instant.</p>
-		</description>
-		<sheet>
-			<description>Create a corridor to your master or somewhere you've been before.</description>
-		</sheet>
-		<rules />
-	</element>
-	<element name="Dark Grasp" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_DARK_GRASP">
-		<supports>Seekers of Darkness</supports>
-		<requirements />
-		<description>
-			<p>At 18th level you gain your last ability, this ability can be used once per battle. A shadow arm sprouts from one of your arms, up to 10ft in length and wraps around your enemy causing 1d20 damage, plus 1d10 damage if you choose to use your embraced element.</p>
-		</description>
-		<sheet>
-			<description>A shadow arm grabs an enemy causing 1d20 damage, plus an additional 1d10 Elemental Embrace damage. Uses 2 actions.</description>
-		</sheet>
-		<rules />
-	</element>
-	<element name="Guardians of Light" type="Archetype" source="KH" id="ID_KH_ARCHETYPE_GUARDIANS_OF_LIGHT">
-		<supports>Path</supports>
-		<requirements />
-		<description>
-			<p>You have trained for years to become a Keyblade master but your final test lies in how you apply your master's teachings in the outside world.</p>
-			<div element="ID_KH_ARCHETYPE_FEATURE_KEYCHAIN_CRAFTING"/>
-			<div element="ID_KH_ARCHETYPE_FEATURE_HEART_RELEASE"/>
-			<div element="ID_KH_ARCHETYPE_FEATURE_COMPANIONS"/>
-			<div element="ID_KH_ARCHETYPE_FEATURE_SUMMONING"/>
-			<div element="ID_KH_ARCHETYPE_FEATURE_FORM_CHANGE"/>
-		</description>
-		<sheet>
-			<description>Training in this path provides abilities to help anyone on their journey. From freeing those you come across to adaptability in battles.</description>
+			<description level="5">You can attack twice, instead of once, whenever you take the Attack action on your turn</description>
+			<description level="11">You can attack three times, instead of once, whenever you take the Attack action on your turn</description>
+			<description level="20">You can attack four times, instead of once, whenever you take the Attack action on your turn</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_KEYCHAIN_CRAFTING" level="1" />
-			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_HEART_RELEASE" level="1" />
-			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_COMPANIONS" level="6" />
-			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_SUMMONING" level="14" />
-			<grant type="Archetype Feature" id="ID_KH_ARCHETYPE_FEATURE_FORM_CHANGE" level="18" />
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+			<stat name="extra attack:count" value="3" level="11" bonus="extra attack" />
+			<stat name="extra attack:count" value="4" level="20" bonus="extra attack" />
 		</rules>
 	</element>
-	<element name="Keychain Crafting" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_KEYCHAIN_CRAFTING">
-		<supports>Guardians of Light</supports>
-		<requirements />
+	<element name="Valor" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_VALOR">
+		<supports>Socket</supports>
 		<description>
-			<p>Starting at 1st level. You gain the ability to craft your own Keychains, these Keychains serve to alter the appearance and effectiveness of any weapon it is attached to as well as providing proficiency in the weapon. Each Keychain takes a full day to create and if you wish to attach it to a weapon that isn't already modified for that purpose that will take an additional day.</p>
+			<p>At 15th level you gain the ability to enter a temporary Form, in your case you may enter the Valor Form which grants you increased attack damage for 5 turns but you must complete a short rest before using this again.</p>
+			<p class="indent">Whenever you land a hit you deal double damage.</p>
 		</description>
-		<sheet>
-			<description>Can craft Keychains. The base cost is 1 day plus any relevant materials. Creating a 'socket' on a weapon costs 1 day plus 1000 Munny or 100 Gold</description>
-		</sheet>
-		<rules />
-	</element>
-	<element name="Heart Release" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_HEART_RELEASE">
-		<supports>Guardians of Light</supports>
-		<requirements />
-		<description>
-			<p>At 1st level, you are able to calm and sooth a person's heart, restoring it's light.</p>
-		</description>
-		<sheet>
-			<description>Roll 1d20 to attempt to calm a negative emotion and restore a heart. If used in battle it uses 1 action.</description>
+		<sheet action="Action">
+			<description>Transform into your Valor Form and deal double damage for 5 turns. You must complete a short rest before you may use this again.</description>
 		</sheet>
 	</element>
-	<element name="Companions" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_COMPANIONS">
-		<supports>Guardians of Light</supports>
-		<requirements />
-		<description>
-			<p>During your travels you may have already helped a lot of people, some of these may offer to help you on your travels. Changing your line up takes one day for them to travel to you, unless you are in Mickey's or Yensid's tower in which case they will meet you at your next destination. If you are in somebody's world and wish them to join you then they will join instantly and the person leaving your lineup will return to their homeworld.</p>
-		</description>
-		<sheet>
-			<description>You may be accompanied by 2 companions, each change of line up takes 1 day unless stated otherwise.</description>
-		</sheet>
-		<rules />
-	</element>
-	<element name="Summoning" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_SUMMONING">
-		<supports>Guardians of Light</supports>
-		<requirements />
-		<description>
-			<p>Starting at 14th level, you will have met many magical entities that have pledged you help. These entities will hand over a charm that can be used to summon them and they will last for 2 turns. Only 1 summoning can happen per battle. Uses 1 action.</p>
-		</description>
-		<sheet>
-			<description>Use an action to summon a temporary helper.</description>
-		</sheet>
-		<rules />
-	</element>
-	<element name="Form Change" type="Archetype Feature" source="KH" id="ID_KH_ARCHETYPE_FEATURE_FORM_CHANGE">
-		<supports>Guardians of Light</supports>
-		<requirements />
-		<description>
-			<p>At 18th level you gain your last ability, this ability can be used once per battle and uses 1 action but lasts the rest of the battle. Your training has advanced further during your adventues and you've gained the ability to change your fighting style to suit situations that require a less broad approach. This may be dismisssed for 1 action.</p>
-		</description>
-		<sheet>
-			<description>Can be used once per battle and uses 1 action but lasts the entire battle unless dismissed which also uses 1 action.</description>
-		</sheet>
-		<rules />
-	</element>
-</elements>
+	
+	
+	
+	</elements>
