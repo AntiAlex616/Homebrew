@@ -34,10 +34,10 @@
 			<div element="ID_KH_CLASS_FEATURE_KEYBLADEWIELDER_FOCUS" />
 			<div element="ID_KH_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_KEYBLADEWIELDER" />
 			
-			<rules>
+		<rules>
 			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADEWIELDER_FOCUS" level="1"/>
 			
-			</rules>
+		</rules>
 			<multiclass id="ID_KH_MULTICLASS_KEYBLADEWIELDER">
 			<prerequisite>Intelligence 13</prerequisite>
 			<requirements>[int:13]</requirements>
