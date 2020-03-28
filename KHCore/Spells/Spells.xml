@@ -4,7 +4,7 @@
 		<name>Spells</name>
 		<description>Spells from Kingdom Hearts.</description>
 		<author>AntiAlex</author>
-		<update version="0.6">
+		<update version="0.7">
 			<file name="Spells.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells/Spells.xml" />
 		</update>
 	</info>
