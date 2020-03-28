@@ -4,7 +4,7 @@
 		<name>Keyblade Warrior</name>
 		<description>The Keyblade Warrior class created for a Kingdom Hearts inspired campaign.</description>
 		<author>AntiAlex</author>
-		<update version="0.9.7.1">
+		<update version="0.9.7.2">
 			<file name="Keyblade-Warrior.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Warrior.xml" />
 		</update>
 	</info>
@@ -170,7 +170,7 @@
 	</element>
 	
 	<element name="Ability Score Improvement" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
-		<compendium display="true" />
+		<compendium display="false" />
 		<description>
 			<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
 		</description>
@@ -179,7 +179,7 @@
 			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 4)" supports="Improvement Option, Keyblade Warrior,4" level="4" />
 			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 6)" supports="Improvement Option, Keyblade Warrior,6" level="6" />
 			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 8)" supports="Improvement Option, Keyblade Warrior,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 12)" supports="Improvement Option, Keyblade Warrior,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 12)" supports="Improvement Option ,Keyblade Warrior,12" level="12" />
 			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 14)" supports="Improvement Option, Keyblade Warrior,14" level="14" />
 			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 16)" supports="Improvement Option, Keyblade Warrior,16" level="16" />
 			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 19)" supports="Improvement Option, Keyblade Warrior,19" level="19" />
@@ -218,7 +218,7 @@
 		</sheet>
 	</element>
 	
-	<element name="Ability Score Increase (Strength)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+	<element name="Ability Score Increase (Strength)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT_STRENGTH">
     <compendium display="false" />
     <supports>Keyblade Warrior</supports>
     <description>
@@ -229,7 +229,7 @@
       <stat name="strength" value="1" alt="Keyblade Warrior" />
     </rules>
   </element>
-  <element name="Ability Score Increase (Dexterity)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+  <element name="Ability Score Increase (Dexterity)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT_DEXTERITY">
     <compendium display="false" />
     <supports>Keyblade Warrior</supports>
     <description>
@@ -240,7 +240,7 @@
       <stat name="dexterity" value="1" alt="Keyblade Warrior" />
     </rules>
   </element>
-  <element name="Ability Score Increase (Constitution)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+  <element name="Ability Score Increase (Constitution)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT_CONSTITUTION">
     <compendium display="false" />
     <supports>Keyblade Warrior</supports>
     <description>
@@ -251,7 +251,7 @@
       <stat name="constitution" value="1" alt="Keyblade Warrior" />
     </rules>
   </element>
-  <element name="Ability Score Increase (Intelligence)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+  <element name="Ability Score Increase (Intelligence)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT_INTELLIGENCE">
     <compendium display="false" />
     <supports>Keyblade Warrior</supports>
     <description>
@@ -262,7 +262,7 @@
       <stat name="intelligence" value="1" alt="Keyblade Warrior" />
     </rules>
   </element>
-  <element name="Ability Score Increase (Wisdom)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+  <element name="Ability Score Increase (Wisdom)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT_WISDOM">
     <compendium display="false" />
     <supports>Keyblade Warrior</supports>
     <description>
@@ -273,7 +273,7 @@
       <stat name="wisdom" value="1" alt="Keyblade Warrior" />
     </rules>
   </element>
-  <element name="Ability Score Increase (Charisma)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+  <element name="Ability Score Increase (Charisma)" type="Improvement Option" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT_CHARISMA">
     <compendium display="false" />
     <supports>Keyblade Warrior</supports>
     <description>
