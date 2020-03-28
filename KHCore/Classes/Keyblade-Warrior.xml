@@ -4,7 +4,7 @@
 		<name>Keyblade Warrior</name>
 		<description>The Keyblade Warrior class created for a Kingdom Hearts inspired campaign.</description>
 		<author>AntiAlex</author>
-		<update version="0.9.9">
+		<update version="1.0">
 			<file name="Keyblade-Warrior.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Warrior.xml" />
 		</update>
 	</info>
