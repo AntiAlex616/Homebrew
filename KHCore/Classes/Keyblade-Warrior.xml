@@ -176,13 +176,13 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 4)" supports="Improvement Option,Keyblade Warrior,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 6)" supports="Improvement Option,Keyblade Warrior,6" level="6" />
-			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 8)" supports="Improvement Option,Keyblade Warrior,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 12)" supports="Improvement Option,Keyblade Warrior,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 14)" supports="Improvement Option,Keyblade Warrior,14" level="14" />
-			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 16)" supports="Improvement Option,Keyblade Warrior,16" level="16" />
-			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 19)" supports="Improvement Option,Keyblade Warrior,19" level="19" />
+			<select type="Class Feature" name="Improvement Option (Fighter 4)" supports="Improvement Option, Fighter,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Fighter 6)" supports="Improvement Option, Fighter,6" level="6" />
+			<select type="Class Feature" name="Improvement Option (Fighter 8)" supports="Improvement Option, Fighter,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Fighter 12)" supports="Improvement Option, Fighter,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Fighter 14)" supports="Improvement Option, Fighter,14" level="14" />
+			<select type="Class Feature" name="Improvement Option (Fighter 16)" supports="Improvement Option, Fighter,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Fighter 19)" supports="Improvement Option, Fighter,19" level="19" />
 		</rules>
 	</element>
 	<element name="Charge" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_CHARGE">
