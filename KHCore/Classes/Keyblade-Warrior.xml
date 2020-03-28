@@ -4,7 +4,7 @@
 		<name>Keyblade Warrior</name>
 		<description>The Keyblade Warrior class created for a Kingdom Hearts inspired campaign.</description>
 		<author>AntiAlex</author>
-		<update version="1.0">
+		<update version="1.0.1">
 			<file name="Keyblade-Warrior.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Warrior.xml" />
 		</update>
 	</info>
@@ -91,7 +91,7 @@
 			<prerequisite>Constitution 13</prerequisite>
 			<requirements>[con:13]</requirements>
 			<setters>
-				<set name="multiclass proficiencies">Acrobatics, Animal Handling, Arcana, Athletics, Deception, History, Insight, Intimidation, Investigation, Medicine, Nature, Perception, Performance, Persuasion, Religion, Sleight of Hand, Stealth or Survival.</set>
+				<set name="multiclass proficiencies">acrobatics, animal handling, arcana, athletics, deception, history, insight, intimidation, investigation, medicine, nature, perception, performance, persuasion, religion, sleight of hand, stealth or survival.</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
