@@ -4,7 +4,7 @@
 		<name>Keyblade Warrior</name>
 		<description>The Keyblade Warrior class created for a Kingdom Hearts inspired campaign.</description>
 		<author>AntiAlex</author>
-		<update version="0.9.5">
+		<update version="0.9.6">
 			<file name="Keyblade-Warrior.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Warrior.xml" />
 		</update>
 	</info>
@@ -65,7 +65,7 @@
 			</table>
 			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_SPELLCASTING_KEYBLADE_WARRIOR" />
 			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_CHARGE" />
-			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITY_SCORE_IMPROVEMENT_KEYBLADE_WARRIOR" />
+			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT" />
 			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_COMBO" />
 			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_SOCKET" />
 			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_VALOR_FORM" />
@@ -84,7 +84,7 @@
 			<select type="Proficiency" name="Skill Proficiency (Keyblade Warrior)" supports="Skill,Keyblade Warrior" number="2" requirements="!ID_KH_MULTICLASS_KEYBLADE_WARRIOR"/>
 			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_SPELLCASTING_KEYBLADE_WARRIOR" level="1" />
 			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_CHARGE" level="2" />
-			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITY_SCORE_IMPROVEMENT_KEYBLADE_WARRIOR" level="4" />
+			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT" level="4" />
 			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_COMBO" level="5" />
 			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_SOCKET" level="10" />
 			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_VALOR_FORM" level="15" />
@@ -169,7 +169,7 @@
 		</rules>
 	</element>
 	
-	<element name="Ability Score Improvement" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBADE_WARRIOR_ABILITY_SCORE_IMPROVEMENT_KEYBLADE_WARRIOR">
+	<element name="Ability Score Improvement" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
 		<compendium display="false" />
 		<description>
 			<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
