@@ -4,7 +4,7 @@
 		<name>Keyblade Warrior</name>
 		<description>The Keyblade Warrior class created for a Kingdom Hearts inspired campaign.</description>
 		<author>AntiAlex</author>
-		<update version="0.9.7.4">
+		<update version="0.9.7.5">
 			<file name="Keyblade-Warrior.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Warrior.xml" />
 		</update>
 	</info>
@@ -226,7 +226,7 @@
     </description>
     <sheet display="false" />
     <rules>
-      <stat name="strength" value="1" alt="Keyblade Warrior" />
+      <stat name="strength" value="1" alt="Ability Score Improvement" />
     </rules>
   </element>
   <element name="Ability Score Increase (Dexterity)" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT_DEXTERITY">
@@ -237,7 +237,7 @@
     </description>
     <sheet display="false" />
     <rules>
-      <stat name="dexterity" value="1" alt="Keyblade Warrior" />
+      <stat name="dexterity" value="1" alt="Ability Score Improvement" />
     </rules>
   </element>
   <element name="Ability Score Increase (Constitution)" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT_CONSTITUTION">
@@ -248,7 +248,7 @@
     </description>
     <sheet display="false" />
     <rules>
-      <stat name="constitution" value="1" alt="Keyblade Warrior" />
+      <stat name="constitution" value="1" alt="Ability Score Improvement" />
     </rules>
   </element>
   <element name="Ability Score Increase (Intelligence)" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT_INTELLIGENCE">
@@ -259,7 +259,7 @@
     </description>
     <sheet display="false" />
     <rules>
-      <stat name="intelligence" value="1" alt="Keyblade Warrior" />
+      <stat name="intelligence" value="1" alt="Ability Score Improvement" />
     </rules>
   </element>
   <element name="Ability Score Increase (Wisdom)" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT_WISDOM">
@@ -270,7 +270,7 @@
     </description>
     <sheet display="false" />
     <rules>
-      <stat name="wisdom" value="1" alt="Keyblade Warrior" />
+      <stat name="wisdom" value="1" alt="Ability Score Improvement" />
     </rules>
   </element>
   <element name="Ability Score Increase (Charisma)" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT_CHARISMA">
@@ -281,7 +281,7 @@
     </description>
     <sheet display="false" />
     <rules>
-      <stat name="charisma" value="1" alt="Keyblade Warrior" />
+      <stat name="charisma" value="1" alt="Ability Score Improvement" />
     </rules>
   </element>
   
