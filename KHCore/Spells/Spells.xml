@@ -4,15 +4,15 @@
 		<name>Spells</name>
 		<description>Spells from Kingdom Hearts.</description>
 		<author>AntiAlex</author>
-		<update version="0.5">
+		<update version="0.6">
 			<file name="Spells.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Spells/Spells.xml" />
 		</update>
 	</info>
 	<spellcasting name="Keyblade Wielder" extend="true">
-    <extend>KeybladeWielder</extend>
+    <extend>Keyblade Wielder</extend>
 </spellcasting>
 	<element name="Fire" type="Spell" source="KH" id="ID_KH_SPELL_FIRE">
-		<supports>KeybladeWielder</supports>
+		<supports>Keyblade Wielder</supports>
 		<description>
 			<p>Your basic Fire spell, taught during your training. The target takes 1d6 fire damage.</p>
 			<p class="indent">
