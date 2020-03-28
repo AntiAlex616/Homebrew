@@ -1,12 +1,11 @@
 <index>
 	<info>
 		<name>Classes.index</name>
-		<update version="0.7">
+		<update version="0.8">
 			<file name="Classes.index" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes.index" />
 		</update>
 	</info>
 	<files>
-		<file name="Keyblade-Wielder.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Wielder.xml" />
 		<file name="Keyblade-Warrior.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Warrior.xml" />
 	</files>
 </index>
