@@ -91,7 +91,7 @@
 			<prerequisite>Constitution 13</prerequisite>
 			<requirements>[con:13]</requirements>
 			<setters>
-				<set name="multiclass proficiencies">—</set>
+				<set name="multiclass proficiencies">Acrobatics, Animal Handling, Arcana, Athletics, Deception, History, Insight, Intimidation, Investigation, Medicine, Nature, Perception, Performance, Persuasion, Religion, Sleight of Hand, Stealth or Survival.</set>
 			</setters>
 			<rules>
 				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
