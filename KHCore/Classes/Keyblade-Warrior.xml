@@ -4,7 +4,7 @@
 		<name>Keyblade Warrior</name>
 		<description>The Keyblade Warrior class created for a Kingdom Hearts inspired campaign.</description>
 		<author>AntiAlex</author>
-		<update version="0.9.6">
+		<update version="0.9.7">
 			<file name="Keyblade-Warrior.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Warrior.xml" />
 		</update>
 	</info>
@@ -176,13 +176,13 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Class Feature" name="Improvement Option (Fighter 4)" supports="Improvement Option, Fighter,4" level="4" />
-			<select type="Class Feature" name="Improvement Option (Fighter 6)" supports="Improvement Option, Fighter,6" level="6" />
-			<select type="Class Feature" name="Improvement Option (Fighter 8)" supports="Improvement Option, Fighter,8" level="8" />
-			<select type="Class Feature" name="Improvement Option (Fighter 12)" supports="Improvement Option, Fighter,12" level="12" />
-			<select type="Class Feature" name="Improvement Option (Fighter 14)" supports="Improvement Option, Fighter,14" level="14" />
-			<select type="Class Feature" name="Improvement Option (Fighter 16)" supports="Improvement Option, Fighter,16" level="16" />
-			<select type="Class Feature" name="Improvement Option (Fighter 19)" supports="Improvement Option, Fighter,19" level="19" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 4)" supports="Improvement Option,Keyblade Warrior,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 6)" supports="Improvement Option,Keyblade Warrior,6" level="6" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 8)" supports="Improvement Option,Keyblade Warrior,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 12)" supports="Improvement Option,Keyblade Warrior,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 14)" supports="Improvement Option,Keyblade Warrior,14" level="14" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 16)" supports="Improvement Option,Keyblade Warrior,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 19)" supports="Improvement Option,Keyblade Warrior,19" level="19" />
 		</rules>
 	</element>
 	<element name="Charge" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_CHARGE">
@@ -217,4 +217,72 @@
 			<description>For 5 turns your melee attacks deal double damage. Must complete a short rest before you may use this skill again.</description>
 		</sheet>
 	</element>
+	
+	<element name="Ability Score Increase (Strength)" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+    <compendium display="false" />
+    <supports>Keyblade Warrior</supports>
+    <description>
+      <p>Your Strength score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="strength" value="1" alt="Keyblade Warrior" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Dexterity)" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+    <compendium display="false" />
+    <supports>Keyblade Warrior</supports>
+    <description>
+      <p>Your Dexterity score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="dexterity" value="1" alt="Keyblade Warrior" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Constitution)" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+    <compendium display="false" />
+    <supports>Keyblade Warrior</supports>
+    <description>
+      <p>Your Constitution score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="constitution" value="1" alt="Keyblade Warrior" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Intelligence)" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+    <compendium display="false" />
+    <supports>Keyblade Warrior</supports>
+    <description>
+      <p>Your Intelligence score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="intelligence" value="1" alt="Keyblade Warrior" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Wisdom)" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+    <compendium display="false" />
+    <supports>Keyblade Warrior</supports>
+    <description>
+      <p>Your Wisdom score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="wisdom" value="1" alt="Keyblade Warrior" />
+    </rules>
+  </element>
+  <element name="Ability Score Increase (Charisma)" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITYSCOREIMPROVEMENT">
+    <compendium display="false" />
+    <supports>Keyblade Warrior</supports>
+    <description>
+      <p>Your Charisma score increases by 1.</p>
+    </description>
+    <sheet display="false" />
+    <rules>
+      <stat name="charisma" value="1" alt="Keyblade Warrior" />
+    </rules>
+  </element>
+  
 </elements>
