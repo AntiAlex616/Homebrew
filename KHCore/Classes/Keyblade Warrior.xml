@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Keyblade Warrior</name>
+		<description>The Keyblade Warrior class created for a Kingdom Hearts inspired campaign.</description>
+		<author>AntiAlex</author>
+		<update version="0.9.5">
+			<file name="Keyblade-Warrior.xml" url="https://raw.githubusercontent.com/AntiAlex616/Homebrew/master/KHCore/Classes/Keyblade-Warrior.xml" />
+		</update>
+	</info>
+	
+	<element name="Keyblade Warrior" type="Class" source="KH" id="ID_KH_CLASS_KEYBLADE_WARRIOR">
+		<description>
+		<p> The Keyblade Warrior is trained in the use of the Keyblade to drive back the forces of Darkness.</p>
+		<h3>Class Features</h3>
+		<p>As a Keyblade Warrior you gain the following class features.</p>
+		<h5 class="caption">HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d8 per Keyblade Warrior level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 6) + your Constitution modifier per Keyblade Warrior level after 1st</li>
+			</ul>
+		<h5 class="caption">PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> Medium Armor</li>
+				<li><strong>Weapons:</strong> Martial Weapons</li>
+				<li><strong>Tools:</strong> None</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong>Constitution</li>
+			</ul>
+			<h5 class="caption">EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>Keyblade</li>
+				<li>a Chain Shirt</li>
+				<li>Two sets of tools or instruments.</li>
+			</ul>
+			<h5 class="caption">THE KEYBLADE WARRIOR</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="col-10">Sorcery Points</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td><td>6th</td><td>7th</td><td>8th</td><td>9th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td>—</td><td class="left">Spellcasting, Proficiencies</td><td>1</td><td>1</td><td>-</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td>2</td><td class="left">Charge</td><td>1</td><td>1</td><td>-</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td>3</td><td class="left">-</td><td>1</td><td>2</td><td>-</td><td>-</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td>4</td><td class="left">Ability Score Improvement</td><td>1</td><td>2</td><td>-</td><td>-</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td>5</td><td class="left">Combo Ability</td><td>2</td><td>3</td><td>1</td><td>-</td><td>-</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td>6</td><td class="left">Ability Score Improvement</td><td>2</td><td>3</td><td>1</td><td>-</td><td>-</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td>7</td><td class="left">—</td><td>2</td><td>4</td><td>1</td><td>-</td><td>-</td><td>-</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td>8</td><td class="left">Ability Score Improvement</td><td>2</td><td>4</td><td>1</td><td>-</td><td>-</td><td>-</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td>9</td><td class="left">—</td><td>2</td><td>5</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td>10</td><td class="left">Socket</td><td>3</td><td>5</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td>11</td><td class="left">—</td><td>3</td><td>6</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td>12</td><td class="left">Ability Score Improvement</td><td>3</td><td>6</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td>13</td><td class="left">—</td><td>3</td><td>7</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>—</td><td>—</td></tr>
+				<tr><td>14th</td><td>14</td><td class="left">Ability Score Improvement</td><td>3</td><td>7</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>—</td><td>—</td></tr>
+				<tr><td>15th</td><td>15</td><td class="left">Valor Form</td><td>4</td><td>8</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>—</td></tr>
+				<tr><td>16th</td><td>16</td><td class="left">Ability Score Improvement</td><td>4</td><td>8</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>—</td></tr>
+				<tr><td>17th</td><td>17</td><td class="left">-</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+				<tr><td>18th</td><td>18</td><td class="left">-</td><td>4</td><td>9</td><td>4</td><td>3</td><td>2</td><td>1</td><td>1</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+				<tr><td>19th</td><td>19</td><td class="left">Ability Score Improvement</td><td>4</td><td>10</td><td>4</td><td>3</td><td>2</td><td>2</td><td>1</td><td>1</td><td>-</td><td>-</td><td>-</td></tr>
+				<tr><td>20th</td><td>20</td><td class="left">-</td><td>5</td><td>10</td><td>4</td><td>3</td><td>2</td><td>2</td><td>2</td><td>1</td><td>1</td><td>1</td><td>-</td></tr>
+			</table>
+			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_SPELLCASTING_KEYBLADE_WARRIOR" />
+			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_CHARGE" />
+			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITY_SCORE_IMPROVEMENT_KEYBLADE_WARRIOR" />
+			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_COMBO" />
+			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_SOCKET" />
+			<div element="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_VALOR_FORM" />
+			</description>
+			<sheet display="false">
+			<description>A Keyblade Wielder whose focus was on weapons rather than magic.</description>
+		</sheet>
+		<setters>
+			<set name="short">A Keyblade Wielder whose focus was on weapons rather than magic.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" requirements="!ID_KH_MULTICLASS_KEYBLADE_WARRIOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_KH_MULTICLASS_KEYBLADE_WARRIOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_KH_MULTICLASS_KEYBLADE_WARRIOR"/>
+			<select type="Proficiency" name="Skill Proficiency (Keyblade Warrior)" supports="Skill,Keyblade Warrior" number="2" requirements="!ID_KH_MULTICLASS_KEYBLADE_WARRIOR"/>
+			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_SPELLCASTING_KEYBLADE_WARRIOR" level="1" />
+			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_CHARGE" level="2" />
+			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_ABILITY_SCORE_IMPROVEMENT_KEYBLADE_WARRIOR" level="4" />
+			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_COMBO" level="5" />
+			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_SOCKET" level="10" />
+			<grant type="Class Feature" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_VALOR_FORM" level="15" />
+		</rules>
+		<multiclass id="ID_WOTC_PHB_MULTICLASS_KEYBLADE_WIELDER">
+			<prerequisite>Constitution 13</prerequisite>
+			<requirements>[con:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">—</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Spellcasting" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_SPELLCASTING_KEYBLADE_WARRIOR">
+		<description>
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Charisma is your spellcasting ability for your Keyblade Warrior spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Keyblade Wielder spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p>
+			</center>
+			<h5>SPELLCASTING FOCUS</h5>
+			<p>Your Keyblade acts as a focus for any spell you learn.</p>
+		</description>
+		<sheet display="false">
+			<description>You have the ability to cast spells.</description>
+		</sheet>
+		<spellcasting name="Keyblade Warrior" ability="Charisma" allowReplace="true">
+			<list>Keyblade Warrior</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_FULL" requirements="ID_INTERNAL_GRANT_MULTICLASS" />
+			<stat name="keyblade warrior:spellcasting:slots:1" value="1" level="1" />
+			<stat name="keyblade warrior:spellcasting:slots:1" value="1" level="3" />
+			<stat name="keyblade warrior:spellcasting:slots:1" value="1" level="5" />
+			<stat name="keyblade warrior:spellcasting:slots:1" value="1" level="7" />
+			<stat name="keyblade warrior:spellcasting:slots:1" value="1" level="9" />
+			<stat name="keyblade warrior:spellcasting:slots:1" value="1" level="11" />
+			<stat name="keyblade warrior:spellcasting:slots:1" value="1" level="13" />
+			<stat name="keyblade warrior:spellcasting:slots:1" value="1" level="15" />
+			<stat name="keyblade warrior:spellcasting:slots:1" value="1" level="17" />
+			<stat name="keyblade warrior:spellcasting:slots:1" value="1" level="19" />
+			<stat name="keyblade warrior:spellcasting:slots:2" value="1" level="5" />
+			<stat name="keyblade warrior:spellcasting:slots:2" value="1" level="9" />
+			<stat name="keyblade warrior:spellcasting:slots:2" value="1" level="13" />
+			<stat name="keyblade warrior:spellcasting:slots:2" value="1" level="17" />
+			<stat name="keyblade warrior:spellcasting:slots:3" value="1" level="9" />
+			<stat name="keyblade warrior:spellcasting:slots:3" value="1" level="13" />
+			<stat name="keyblade warrior:spellcasting:slots:3" value="1" level="17" />
+			<stat name="keyblade warrior:spellcasting:slots:4" value="1" level="13" />
+			<stat name="keyblade warrior:spellcasting:slots:4" value="1" level="17" />
+			<stat name="keyblade warrior:spellcasting:slots:5" value="1" level="17" />
+			<stat name="keyblade warrior:spellcasting:slots:5" value="1" level="19" />
+			<stat name="keyblade warrior:spellcasting:slots:6" value="1" level="18" />
+			<stat name="keyblade warrior:spellcasting:slots:6" value="1" level="20" />
+			<stat name="keyblade warrior:spellcasting:slots:7" value="1" level="19" />
+			<stat name="keyblade warrior:spellcasting:slots:8" value="1" level="20" />
+			<stat name="keyblade warrior:spellcasting:slots:9" value="1" level="20" />
+
+			<select type="Spell" name="Cantrip (Keyblade Warrior)" supports="$(spellcasting:list),0" level="1" spellcasting="Keyblade Warrior" />
+			<select type="Spell" name="Cantrip (Keyblade Warrior)" supports="$(spellcasting:list),0" level="5" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Cantrip (Keyblade Warrior)" supports="$(spellcasting:list),0" level="10" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Cantrip (Keyblade Warrior)" supports="$(spellcasting:list),0" level="15" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Cantrip (Keyblade Warrior)" supports="$(spellcasting:list),0" level="20" spellcasting="Keyblade Warrior"/>
+
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="1" number="2" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="4" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="6" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="8" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="10" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Keyblade Warrior"/>
+			<select type="Spell" name="Spell (Keyblade Warrior)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Keyblade Warrior"/>
+		</rules>
+	</element>
+	
+	<element name="Ability Score Improvement" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBADE_WARRIOR_ABILITY_SCORE_IMPROVEMENT_KEYBLADE_WARRIOR">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 4)" supports="Improvement Option,Keyblade Warrior,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 6)" supports="Improvement Option,Keyblade Warrior,6" level="6" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 8)" supports="Improvement Option,Keyblade Warrior,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 12)" supports="Improvement Option,Keyblade Warrior,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 14)" supports="Improvement Option,Keyblade Warrior,14" level="14" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 16)" supports="Improvement Option,Keyblade Warrior,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Keyblade Warrior 19)" supports="Improvement Option,Keyblade Warrior,19" level="19" />
+		</rules>
+	</element>
+	<element name="Charge" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_CHARGE">
+		<description>
+			<p>Starting at 1st level, you gain your Charge ability which allows you to close the distance between you and an enemy and attack in the same action.</p>
+		</description>
+		<sheet>
+			<description>Charge 10 feet closer to an enemy and perform a regular attack all in one action.</description>
+		</sheet>
+	</element>
+	<element name="Socket" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_SOCKET">
+		<description>
+			<p>At 10th level you have gained some of the Moogle's knowledge and can now add a socket to any item, this allows you alter the original item by attaching a Keychain. Only one Keychain can be equipped to each item at a time.</p>
+		</description>
+		<sheet>
+			<description>You may add a socket to an item at the cost of 1 day plus 1000 gold.</description>
+		</sheet>
+	</element>
+	<element name="Combo" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_COMBO">
+		<description>
+			<p>Starting at 5th level every attack action gains an attack for a total of 2 attacks per attack action. This increases to 3 at 11th level, 4 at  20th level.</p>
+		</description>
+		<sheet>
+			<description>Perform an extra attack when the attack action is used.</description>
+		</sheet>
+	</element>
+	<element name="Valor" type="Class Feature" source="KH" id="ID_KH_CLASS_FEATURE_KEYBLADE_WARRIOR_VALOR_FORM">
+		<description>
+			<p>At 15th level you gain the ability to transform into your Valor Form which increases any melee damage dealt for 5 turns.</p>
+		</description>
+		<sheet>
+			<description>For 5 turns your melee attacks deal double damage. Must complete a short rest before you may use this skill again.</description>
+		</sheet>
+	</element>
+</elements>
