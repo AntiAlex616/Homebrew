@@ -48,7 +48,7 @@
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">7</set>
+			<set name="level">2</set>
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
@@ -73,7 +73,7 @@
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">15</set>
+			<set name="level">3</set>
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
@@ -123,7 +123,7 @@
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">7</set>
+			<set name="level">2</set>
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">1 minute</set>
@@ -148,7 +148,7 @@
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">15</set>
+			<set name="level">3</set>
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">1 minute</set>
@@ -198,7 +198,7 @@
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">7</set>
+			<set name="level">2</set>
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
@@ -223,7 +223,7 @@
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">15</set>
+			<set name="level">3</set>
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
@@ -273,7 +273,7 @@
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">7</set>
+			<set name="level">2</set>
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
@@ -298,7 +298,7 @@
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">15</set>
+			<set name="level">3</set>
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
@@ -323,7 +323,7 @@
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">4</set>
+			<set name="level">3</set>
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
@@ -348,7 +348,7 @@
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">10</set>
+			<set name="level">4</set>
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
@@ -373,7 +373,7 @@
 		</description>
 		<setters>
 			<set name="keywords"></set>
-			<set name="level">17</set>
+			<set name="level">5</set>
 			<set name="school">Evocation</set>
 			<set name="time">1 action</set>
 			<set name="duration">Instantaneous</set>
